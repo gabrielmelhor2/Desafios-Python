@@ -5,7 +5,7 @@ menos escreva "Seu nome é curto"; se tiver entre 5 e 6 letras, escreva
 """
 
 nome = input("Digite seu nome: ")
-
+length_name = len(nome)
 
 if len(nome) <= 4:
     print("Seu nome é curto")
